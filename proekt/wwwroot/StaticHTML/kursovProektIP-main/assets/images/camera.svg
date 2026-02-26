@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Camera">
+  <rect width="800" height="500" fill="#0b0d12"/>
+  <rect x="110" y="150" width="580" height="260" rx="34" fill="#151a22" stroke="rgba(255,255,255,0.22)" stroke-width="4"/>
+  <rect x="170" y="120" width="160" height="70" rx="16" fill="rgba(255,138,0,0.22)" stroke="rgba(255,138,0,0.45)" stroke-width="3"/>
+  <circle cx="470" cy="280" r="98" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.25)" stroke-width="6"/>
+  <circle cx="470" cy="280" r="46" fill="rgba(255,138,0,0.24)" stroke="rgba(255,255,255,0.18)" stroke-width="4"/>
+  <text x="400" y="455" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-family="Segoe UI, Arial" font-size="28">CAMERA</text>
+</svg>

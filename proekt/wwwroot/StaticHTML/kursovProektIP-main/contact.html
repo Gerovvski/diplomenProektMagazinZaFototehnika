@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакт / Поръчка | Shutter &amp; Steel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="site-wrap header-inner">
+      <div class="brand">
+        <img src="assets/images/logo.png" alt="Лого на Shutter &amp; Steel" />
+        <div>
+          <h1>Shutter &amp; Steel</h1>
+          <p class="tagline">Форма за контакт / поръчка</p>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Основна навигация">
+        <ul class="nav-list">
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="cameras.html">Камери</a></li>
+          <li><a href="lenses.html">Обективи</a></li>
+          <li><a href="tripods.html">Стативи</a></li>
+          <li><a href="accessories.html">Аксесоари</a></li>
+          <li><a href="lighting.html">Фото осветление</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="contact.html" aria-current="page">Контакт / Поръчка</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr class="divider" />
+
+  <main class="site-main">
+    <div class="site-wrap">
+      <section class="panel">
+        <h2>Контакт / Поръчка</h2>
+        <p>
+          Изпратете ни запитването си и ще отговорим с наличности, цени и детайли за получаване/доставка.
+          (Това е демо форма &mdash; <strong>не се изпращат реални данни</strong>.)
+        </p>
+
+        <hr class="hr-space" />
+        <h3>Форма</h3>
+        <form class="form" action="#" method="post">
+          <div>
+            <label for="name">Име</label>
+            <input id="name" name="name" type="text" placeholder="Вашето име" required />
+          </div>
+
+          <div>
+            <label for="email">Имейл</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+
+          <div>
+            <label for="product">Избор на продукт</label>
+            <select id="product" name="product" required>
+              <option value="">Изберете артикул…</option>
+              <option value="camera">Тяло на камера</option>
+              <option value="lens">Обектив</option>
+              <option value="tripod">Статив</option>
+              <option value="accessories">Аксесоари</option>
+              <option value="lighting">Фото осветление</option>
+              <option value="services">Фотографски услуги</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Съобщение</label>
+            <textarea id="message" name="message" placeholder="Кажете какво ви трябва (бюджет, срок, предпочитани марки)…" required></textarea>
+          </div>
+
+          <button type="submit">Изпрати</button>
+        </form>
+
+        <hr class="hr-space" />
+        <h4>Бележки за магазина</h4>
+        <p class="note">Примерно работно време: Пон–Пет 10:00–18:00 &nbsp;|&nbsp; Съб 11:00–16:00 &nbsp;|&nbsp; Нед затворено.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-wrap footer-inner">
+      <p>Благодарим, че се свързахте &mdash; ще отговорим скоро.</p>
+      <a class="back-to-top" href="#top">Към началото</a>
+    </div>
+  </footer>
+</body>
+</html>

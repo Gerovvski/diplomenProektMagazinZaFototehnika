@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Studio light">
+  <rect width="800" height="500" fill="#0b0d12"/>
+  <path d="M250 210 L480 160 L540 260 L310 310 Z" fill="#151a22" stroke="rgba(255,255,255,0.22)" stroke-width="4"/>
+  <circle cx="440" cy="235" r="46" fill="rgba(255,138,0,0.22)" stroke="rgba(255,138,0,0.55)" stroke-width="4"/>
+  <path d="M320 310 L280 430" stroke="rgba(255,255,255,0.25)" stroke-width="8"/>
+  <path d="M340 310 L420 450" stroke="rgba(255,255,255,0.18)" stroke-width="8"/>
+  <path d="M280 430 L220 450" stroke="rgba(255,138,0,0.45)" stroke-width="6"/>
+  <path d="M420 450 L480 450" stroke="rgba(255,138,0,0.45)" stroke-width="6"/>
+  <text x="400" y="475" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-family="Segoe UI, Arial" font-size="28">PHOTO LIGHT</text>
+</svg>

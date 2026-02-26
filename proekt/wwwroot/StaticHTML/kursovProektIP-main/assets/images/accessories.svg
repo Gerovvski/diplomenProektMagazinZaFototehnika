@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Accessories">
+  <rect width="800" height="500" fill="#0b0d12"/>
+  <rect x="170" y="140" width="460" height="260" rx="26" fill="#151a22" stroke="rgba(255,255,255,0.22)" stroke-width="4"/>
+  <rect x="220" y="190" width="360" height="50" rx="14" fill="rgba(255,138,0,0.20)" stroke="rgba(255,138,0,0.45)"/>
+  <rect x="220" y="260" width="220" height="40" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)"/>
+  <rect x="460" y="260" width="120" height="120" rx="18" fill="rgba(0,0,0,0.30)" stroke="rgba(255,255,255,0.18)"/>
+  <circle cx="520" cy="320" r="26" fill="rgba(255,138,0,0.22)"/>
+  <text x="400" y="455" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-family="Segoe UI, Arial" font-size="28">ACCESSORIES</text>
+</svg>
