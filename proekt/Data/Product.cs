@@ -1,4 +1,6 @@
-﻿namespace proekt.Data
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace proekt.Data
 {
     public class Product
     {
@@ -11,6 +13,7 @@
         public DateTime DateAdded { get; set; }
         public int CategoryId { get; set; }
         public Category Categories { get; set; }
-        public ICollection<Cart> Carts { get; set; }
+        public ICollection<CartItem> CartItems { get; set; }
+        public ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

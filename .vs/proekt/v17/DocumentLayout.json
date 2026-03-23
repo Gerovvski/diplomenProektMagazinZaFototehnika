@@ -3,65 +3,295 @@
   "WorkspaceRootPath": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\wwwroot\\statichtml\\kursovproektip-main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\wwwroot\\statichtml\\kursovproektip-main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\wwwroot\\statichtml\\kursovproektip-main\\accessories.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\wwwroot\\statichtml\\kursovproektip-main\\accessories.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\migrations\\20260318090505_orderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\migrations\\20260318090505_orderfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 232,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\index.html",
-              "RelativeDocumentMoniker": "proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\index.html",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\index.html",
-              "RelativeToolTip": "proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-02-25T10:12:56.309Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Program.cs",
               "RelativeDocumentMoniker": "proekt\\Program.cs",
               "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Program.cs",
               "RelativeToolTip": "proekt\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T09:39:09.261Z",
+              "WhenOpened": "2026-03-18T09:51:15.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "accessories.html",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\accessories.html",
-              "RelativeDocumentMoniker": "proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\accessories.html",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\accessories.html",
-              "RelativeToolTip": "proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\accessories.html",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "proekt\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "proekt\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-02-25T09:33:39.496Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:40:48.873Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "proekt\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "proekt\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:22:39.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260318090505_OrderFix.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Migrations\\20260318090505_OrderFix.cs",
+              "RelativeDocumentMoniker": "proekt\\Migrations\\20260318090505_OrderFix.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Migrations\\20260318090505_OrderFix.cs",
+              "RelativeToolTip": "proekt\\Migrations\\20260318090505_OrderFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:05:05.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T08:41:36.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationBuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeDocumentMoniker": "proekt\\Services\\ApplicationBuilderExtension.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "proekt\\Services\\ApplicationBuilderExtension.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:39:16.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Order.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Order.cs",
+              "RelativeToolTip": "proekt\\Data\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:39:58.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T09:09:05.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "proekt\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "proekt\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:22:29.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\OrderDetail.cs",
+              "RelativeToolTip": "proekt\\Data\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:19:42.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "proekt\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwB4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:15:38.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Product.cs",
+              "RelativeToolTip": "proekt\\Data\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:41:45.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\CartItem.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\CartItem.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\CartItem.cs",
+              "RelativeToolTip": "proekt\\Data\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:06:57.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Cart.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Cart.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Cart.cs",
+              "RelativeToolTip": "proekt\\Data\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:14:31.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Category.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Category.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Category.cs",
+              "RelativeToolTip": "proekt\\Data\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:16:34.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Client.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Client.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Client.cs",
+              "RelativeToolTip": "proekt\\Data\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:16:36.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T12:21:33.044Z"
             }
           ]
         },

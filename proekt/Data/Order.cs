@@ -3,10 +3,9 @@
     public class Order
     {
         public int Id { get; set; }
-        public int OrderDate { get; set; }
+        public DateTime OrderDate { get; set; }
+        public string ClientId { get; set; }
         public int TotalPrice { get; set; }
-        public int OrderDetailId { get; set; }
-        public OrderDetail OrderDetail { get; set; }
-       
+        public ICollection<OrderDetail> Details { get; set; }
     }
 }

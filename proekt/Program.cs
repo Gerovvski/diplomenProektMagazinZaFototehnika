@@ -12,10 +12,14 @@ namespace proekt
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            //builder.Services.AddAuthorization(options =>
+            //{
+            //    options.AddPolicy("AdminOnly", policy =>
+            //        policy.RequireRole("Admin")); 
+            //});
 
-            
 
-           
+
 
 
 
@@ -30,6 +34,7 @@ namespace proekt
                 .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddControllers(x => x.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
             var app = builder.Build();
 
 
