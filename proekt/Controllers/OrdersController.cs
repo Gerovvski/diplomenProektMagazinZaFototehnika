@@ -85,7 +85,16 @@ namespace proekt.Controllers
         // GET: Orders
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Orders.ToListAsync());
+            var userId = _userManager.GetUserId(User);
+            if(User.IsInRole("Admin"))
+            {
+             return View(await _context.Orders.ToListAsync());
+            }
+            else
+            {
+                return View(await _context.Orders.Where(o => o.ClientId == userId).ToListAsync());
+            }
+          
         }
 
         // GET: Orders/Details/5
@@ -132,9 +141,10 @@ namespace proekt.Controllers
             return View(order);
         }
 
-       
 
-        // GET: Orders/Delete/5
+
+        //GET: Orders/Delete/5
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -153,11 +163,12 @@ namespace proekt.Controllers
 
 
 
-            
+
             return View(order);
         }
 
         // POST: Orders/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

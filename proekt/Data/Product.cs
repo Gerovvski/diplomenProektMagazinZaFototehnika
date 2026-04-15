@@ -15,5 +15,7 @@ namespace proekt.Data
         public Category Categories { get; set; }
         public ICollection<CartItem> CartItems { get; set; }
         public ICollection<OrderDetail> OrderDetails { get; set; }
+        public bool IsDeleted { get; set; } = false;
+        public string ImageUrl { get; set; }
     }
 }

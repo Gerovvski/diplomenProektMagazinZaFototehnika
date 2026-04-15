@@ -3,28 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MagazinZaFototehnika/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-12\\desktop\\hristiqn12a\\proekt\\proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +37,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "proekt\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:04:30.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-30T10:49:35.365Z",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Category.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Category.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Category.cs",
+              "RelativeToolTip": "proekt\\Data\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:02:21.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartsController.cs",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\CartsController.cs",
-              "RelativeDocumentMoniker": "proekt\\Controllers\\CartsController.cs",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\CartsController.cs",
-              "RelativeToolTip": "proekt\\Controllers\\CartsController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T10:44:20.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "proekt\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "proekt\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowHIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T10:43:31.049Z",
+              "WhenOpened": "2026-04-15T09:00:29.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-26T11:28:58.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\OrderDetailsController.cs",
-              "RelativeDocumentMoniker": "proekt\\Controllers\\OrderDetailsController.cs",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\OrderDetailsController.cs",
-              "RelativeToolTip": "proekt\\Controllers\\OrderDetailsController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T10:44:01.862Z",
+              "DocumentIndex": 5,
+              "Title": "dbo.Categories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MagazinZaFototehnika/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "dbo.Categories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-15T08:58:14.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "proekt\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "proekt\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAowH8AAAAIAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwE8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T08:43:20.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAqwE8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T08:04:53.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\1212-12\\Desktop\\hristiqn12a\\proekt\\proekt\\Data\\Product.cs",
+              "RelativeToolTip": "proekt\\Data\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T11:31:36.822Z",
+              "WhenOpened": "2026-04-15T07:23:19.885Z",
               "EditorCaption": ""
             }
           ]

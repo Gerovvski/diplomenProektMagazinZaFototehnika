@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization.Infrastructure;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,12 +20,25 @@ namespace proekt.Controllers
         {
             _context = context;
         }
-
+       
+        
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? categoryId)
         {
-            var applicationDbContext = _context.Products.Include(p => p.Categories);
-            return View(await applicationDbContext.ToListAsync());
+            var products = _context.Products
+                .Include(p => p.Categories)
+                .AsQueryable();
+ //filtur za rolqta admin koito proverqva dali user e admin i ako e pokazva itemi koito sa spreni
+            if (!User.IsInRole("Admin"))
+            {
+                products = products.Where(p => !p.IsDeleted);
+            }
+            //do tuk
+            if (categoryId != null)
+            {
+                products = products.Where(p => p.CategoryId == categoryId);
+            }
+            return View(await products.ToListAsync());
         }
 
         // GET: Products/Details/5
@@ -38,15 +52,22 @@ namespace proekt.Controllers
             var product = await _context.Products
                 .Include(p => p.Categories)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (product == null)
             {
                 return NotFound();
             }
-
+            //proverka ako rolqta NE E ADMIN i produktut e delete kakvo shte stane
+            if(!User.IsInRole("Admin")&&product.IsDeleted)
+            {
+                return NotFound();
+            }
+            //do tuk
             return View(product);
         }
 
         // GET: Products/Create
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
@@ -54,11 +75,12 @@ namespace proekt.Controllers
         }
 
         // POST: Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+       
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CatalogNumber,Name,Description,Model,Price,DateAdded,CategoryId")] Product product)
+      
+        public async Task<IActionResult> Create([Bind("CatalogNumber,Name,Description,Model,Price,DateAdded,CategoryId,ImageUrl")] Product product)
         {
             product.DateAdded = DateTime.Now;
             if (ModelState.IsValid)
@@ -72,6 +94,7 @@ namespace proekt.Controllers
         }
 
         // GET: Products/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
            
@@ -90,13 +113,13 @@ namespace proekt.Controllers
         }
 
         // POST: Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,CatalogNumber,Name,Description,Model,Price,DateAdded,CategoriId")] Product product)
+      
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CatalogNumber,Name,Description,Model,Price,DateAdded,CategoryId,ImageUrl")] Product product)
         {
-            product.DateAdded = DateTime.Now;
+           // product.DateAdded = DateTime.Now;
             if (id != product.Id)
             {
                 return NotFound();
@@ -127,6 +150,7 @@ namespace proekt.Controllers
         }
 
         // GET: Products/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -146,14 +170,18 @@ namespace proekt.Controllers
         }
 
         // POST: Products/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+       
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var product = await _context.Products.FindAsync(id);
             if (product != null)
             {
-                _context.Products.Remove(product);
+                product.IsDeleted = true;
+                _context.Update(product);
+                await _context.SaveChangesAsync();
             }
 
             await _context.SaveChangesAsync();
