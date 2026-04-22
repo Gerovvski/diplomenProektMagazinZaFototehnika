@@ -5,57 +5,96 @@
 }
 
 <style>
+    body {
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    }
+
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+        font-weight: 700;
+    }
+
     .product-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
     }
 
     .product-card {
-        border: 1px solid #ddd;
-        border-radius: 12px;
-        padding: 15px;
+        background: rgba(255,255,255,0.95);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
         cursor: pointer;
         transition: 0.3s;
-        background: white;
     }
 
         .product-card:hover {
-            transform: scale(1.02);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transform: translateY(-5px);
         }
 
     .product-img {
         width: 100%;
-        height: 180px;
+        height: 200px;
         object-fit: cover;
-        border-radius: 10px;
+    }
+
+    .product-body {
+        padding: 15px;
     }
 
     .product-title {
         font-size: 18px;
-        font-weight: bold;
-        margin-top: 10px;
+        font-weight: 700;
     }
 
     .product-price {
-        color: green;
-        font-weight: bold;
+        color: #16a34a;
+        font-weight: 700;
+        margin-top: 5px;
     }
 
     .product-details {
         display: none;
         margin-top: 10px;
         font-size: 14px;
+        color: #374151;
     }
 
     .product-card.active .product-details {
         display: block;
     }
+
+    .btn-group {
+        margin-top: 10px;
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+   
+
+    }
 </style>
 
-<h1>Products</h1>
-
+<h2 style="text-align:center; margin:20px 0;">
+    Категория: <span style="color:#2563eb;">
+        @ViewBag.CategoryName
+    </span>
+</h2>
+@if (User.IsInRole("Admin"))
+{
+    <div style="text-align:center; margin-bottom:20px;">
+        <a asp-action="Create"
+           class="btn btn-success btn-lg">
+            + Add Product
+        </a>
+    </div>
+}
 <div class="product-grid">
 
     @foreach (var item in Model)
@@ -64,58 +103,64 @@
 
             <img src="@item.ImageUrl" class="product-img" />
 
-            <div class="product-title">@item.Name</div>
+            <div class="product-body">
 
-            <div class="product-price">@item.Price лв.</div>
+                <div class="product-title">@item.Name</div>
 
-            <div class="product-details">
-                <hr />
+                <div class="product-price">@item.Price лв.</div>
 
-                <p><b>Description:</b> @item.Description</p>
-                <p><b>Model:</b> @item.Model</p>
-                <p><b>Category:</b> @item.Categories?.Name</p>
+                <div class="product-details">
 
-                <a asp-action="Details"
-                   asp-route-id="@item.Id"
-                   class="btn btn-info btn-sm">
-                    Full Details
-                </a>
+                    <hr />
 
-                @if (!User.IsInRole("Admin"))
-                {
-                    <a asp-controller="Cart"
-                       asp-action="AddToCart"
-                       asp-route-id="@item.Id"
-                       class="btn btn-primary btn-sm">
-                        Add to Cart
-                    </a>
-                }
+                    <p><b>Description:</b> @item.Description</p>
+                    <p><b>Model:</b> @item.Model</p>
+                    <p><b>Category:</b> @item.Categories?.Name</p>
 
-                @if (User.IsInRole("Admin"))
-                {
-                    <div style="margin-top:10px;">
+                    <div class="btn-group">
 
-                        <a asp-action="Edit"
+                        <a asp-action="Details"
                            asp-route-id="@item.Id"
-                           class="btn btn-warning btn-sm">
-                            Edit
+                           class="btn btn-info btn-sm">
+                            Details
                         </a>
 
-                        <form asp-action="Delete"
-                              asp-route-id="@item.Id"
-                              method="post"
-                              style="display:inline;"
-                              onsubmit="return confirm('Are you sure you want to delete this product?');">
+                        @if (!User.IsInRole("Admin"))
+                        {
+                            <a asp-controller="Cart"
+                               asp-action="AddToCart"
+                               asp-route-id="@item.Id"
+                               class="btn btn-primary btn-sm">
+                                Add
+                            </a>
+                        }
 
-                            <button type="submit" class="btn btn-danger btn-sm">
-                                Delete
-                            </button>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Edit"
+                               asp-route-id="@item.Id"
+                               class="btn btn-warning btn-sm">
+                                Edit
+                            </a>
 
-                        </form>
+                            <form asp-action="Delete"
+                                  asp-route-id="@item.Id"
+                                  method="post"
+                                  onsubmit="return confirm('Delete this product?');">
+
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    Delete
+                                </button>
+
+                            </form>
+                        }
 
                     </div>
-                }
+
+                </div>
+
             </div>
+
         </div>
     }
 

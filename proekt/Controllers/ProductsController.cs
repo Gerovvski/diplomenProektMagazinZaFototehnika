@@ -20,24 +20,41 @@ namespace proekt.Controllers
         {
             _context = context;
         }
-       
-        
+
+
         // GET: Products
         public async Task<IActionResult> Index(int? categoryId)
         {
             var products = _context.Products
                 .Include(p => p.Categories)
                 .AsQueryable();
- //filtur za rolqta admin koito proverqva dali user e admin i ako e pokazva itemi koito sa spreni
+
+            string categoryName = "Всички продукти";
+
+            //filtur za rolqta admin koito proverqva dali user e admin i ako e pokazva itemi koito sa spreni
             if (!User.IsInRole("Admin"))
             {
                 products = products.Where(p => !p.IsDeleted);
             }
             //do tuk
+
             if (categoryId != null)
             {
                 products = products.Where(p => p.CategoryId == categoryId);
+
+                // kategoriq za imeto
+                var category = await _context.Categories
+                    .FirstOrDefaultAsync(c => c.Id == categoryId);
+
+                if (category != null)
+                {
+                    categoryName = category.Name;
+                }
             }
+
+            //!!!!!
+            ViewBag.CategoryName = categoryName;
+
             return View(await products.ToListAsync());
         }
 

@@ -1,60 +1,169 @@
 ﻿@model proekt.Data.Product
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Product Details";
 }
 
-<h1>Details</h1>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        font-family: Arial, sans-serif;
+    }
 
-<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CatalogNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CatalogNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Model)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Model)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateAdded)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateAdded)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Categories)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Categories.Id)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    .details-container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 0 15px;
+    }
+
+    .details-card {
+        background: rgba(255,255,255,0.95);
+        padding: 30px;
+        border-radius: 18px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #111827;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .box {
+        background: #f9fafb;
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid #e5e7eb;
+    }
+
+    .label {
+        font-size: 13px;
+        color: #6b7280;
+    }
+
+    .value {
+        font-weight: 600;
+        color: #111827;
+        margin-top: 2px;
+    }
+
+    .full {
+        grid-column: 1 / -1;
+    }
+
+    .btn-area {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 10px 16px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.2s;
+    }
+
+    .edit {
+        background: #2563eb;
+        color: white;
+    }
+
+        .edit:hover {
+            background: #1d4ed8;
+        }
+
+    .back {
+        background: #374151;
+        color: white;
+    }
+
+        .back:hover {
+            background: #111827;
+        }
+
+    
+
+    .btn-area {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    }
+</style>
+
+<div class="details-container">
+
+    <div class="details-card">
+
+        <div class="title">Product Details</div>
+
+        <div class="grid">
+
+            <div class="box">
+                <div class="label">Catalog Number</div>
+                <div class="value">@Model.CatalogNumber</div>
+            </div>
+
+            <div class="box">
+                <div class="label">Name</div>
+                <div class="value">@Model.Name</div>
+            </div>
+
+            <div class="box full">
+                <div class="label">Description</div>
+                <div class="value">@Model.Description</div>
+            </div>
+
+            <div class="box">
+                <div class="label">Model</div>
+                <div class="value">@Model.Model</div>
+            </div>
+
+            <div class="box">
+                <div class="label">Price</div>
+                <div class="value">@Model.Price лв.</div>
+            </div>
+
+            <div class="box">
+                <div class="label">Date Added</div>
+                <div class="value">@Model.DateAdded</div>
+            </div>
+
+            <div class="box">
+                <div class="label">Category</div>
+                <div class="value">@Model.Categories?.Id</div>
+            </div>
+
+        </div>
+
+        <div class="btn-area">
+
+            <a asp-action="Edit"
+               asp-route-id="@Model?.Id"
+               class="btn edit">
+                Edit
+            </a>
+
+            <a asp-action="Index"
+               class="btn back">
+                Back
+            </a>
+
+        </div>
+
+    </div>
+
 </div>

@@ -1,42 +1,82 @@
 ﻿@model proekt.Data.OrderDetail
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Order Details";
 }
 
-<h1>Details</h1>
+<style>
+    .details-card {
+        max-width: 600px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
 
-<div>
-    <h4>OrderDetail</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Product)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Product.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Order)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Order.Id)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    .details-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .detail-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .detail-label {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .detail-value {
+        color: #222;
+    }
+
+    .btn-area {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+<div class="details-card">
+
+    <h2 class="details-title">Order Detail</h2>
+
+    <div class="detail-row">
+        <span class="detail-label">Quantity</span>
+        <span class="detail-value">@Model.Quantity</span>
+    </div>
+
+    <div class="detail-row">
+        <span class="detail-label">Price</span>
+        <span class="detail-value">@Model.Price лв.</span>
+    </div>
+
+    <div class="detail-row">
+        <span class="detail-label">Product</span>
+        <span class="detail-value">@Model.Product?.Name</span>
+    </div>
+
+    <div class="detail-row">
+        <span class="detail-label">Order ID</span>
+        <span class="detail-value">@Model.Order?.Id</span>
+    </div>
+
+    <div class="btn-area">
+        <a asp-action="Index" class="btn btn-secondary btn-sm">
+            Back
+        </a>
+
+        <a asp-action="Edit"
+           asp-route-id="@Model?.Id"
+           class="btn btn-primary btn-sm">
+            Edit
+        </a>
+    </div>
+
 </div>

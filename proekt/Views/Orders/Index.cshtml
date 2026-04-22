@@ -1,44 +1,136 @@
 ﻿@model IEnumerable<proekt.Data.Order>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Orders";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        /* CLEAN MODERN BACKGROUND */
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        font-family: Arial, sans-serif;
+    }
 
-@* <p>
-    <a asp-action="Create">Create New</a>
-</p> *@
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalPrice)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalPrice)
-            </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
-                @if(User.IsInRole("Admin"))
-                {
-                          <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                }
-              
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    .orders-container {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 0 15px;
+    }
+
+    .orders-card {
+        background: rgba(255, 255, 255, 0.92);
+        border-radius: 18px;
+        padding: 25px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #111827;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    thead {
+        background: #111827;
+        color: white;
+    }
+
+    tbody tr:hover {
+        background: #f3f4f6;
+        transition: 0.2s;
+    }
+
+    .price {
+        font-weight: 600;
+        color: #047857;
+    }
+
+    .actions a {
+        margin-right: 10px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .details {
+        color: #2563eb;
+    }
+
+    .delete {
+        color: #dc2626;
+    }
+
+   
+
+    }
+</style>
+
+<div class="orders-container">
+
+    <div class="orders-card">
+
+        <div class="title">Orders</div>
+
+        <div class="table-responsive">
+
+            <table class="table table-bordered align-middle">
+
+                <thead>
+                    <tr>
+                        <th>Order Date</th>
+                        <th>Total Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>@item.OrderDate</td>
+
+                            <td class="price">
+                                @item.TotalPrice лв.
+                            </td>
+
+                            <td class="actions">
+
+                                <a asp-action="Details"
+                                   asp-route-id="@item.Id"
+                                   class="details">
+                                    Details
+                                </a>
+
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <a asp-action="Delete"
+                                       asp-route-id="@item.Id"
+                                       class="delete">
+                                        Delete
+                                    </a>
+                                }
+
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

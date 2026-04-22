@@ -1,66 +1,155 @@
 ﻿@model proekt.Data.Product
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Product";
 }
 
-<h1>Edit</h1>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        font-family: Arial, sans-serif;
+    }
 
-<h4>Product</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    .form-container {
+        max-width: 650px;
+        margin: 50px auto;
+        padding: 0 15px;
+    }
+
+    .form-card {
+        background: rgba(255,255,255,0.95);
+        padding: 30px;
+        border-radius: 18px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #111827;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: block;
+        color: #374151;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #d1d5db;
+        outline: none;
+        transition: 0.2s;
+    }
+
+        input:focus, select:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 5px rgba(59,130,246,0.3);
+        }
+
+    .btn-save {
+        width: 100%;
+        padding: 12px;
+        background: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .btn-save:hover {
+            background: #1d4ed8;
+        }
+
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        text-decoration: none;
+        color: #374151;
+    }
+
+        .back-link:hover {
+            color: #111827;
+        }
+
+    .text-danger {
+        font-size: 13px;
+    }
+</style>
+
+<div class="form-container">
+
+    <div class="form-card">
+
+        <div class="title">Edit Product</div>
+
         <form asp-action="Edit">
+
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <input type="hidden" asp-for="Id" />
+
             <div class="form-group">
-                <label asp-for="CatalogNumber" class="control-label"></label>
-                <input asp-for="CatalogNumber" class="form-control" />
+                <label>Catalog Number</label>
+                <input asp-for="CatalogNumber" />
                 <span asp-validation-for="CatalogNumber" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+                <label>Name</label>
+                <input asp-for="Name" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
+                <label>Description</label>
+                <input asp-for="Description" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Model" class="control-label"></label>
-                <input asp-for="Model" class="form-control" />
+                <label>Model</label>
+                <input asp-for="Model" />
                 <span asp-validation-for="Model" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
+                <label>Price</label>
+                <input asp-for="Price" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
-           @*
+
             <div class="form-group">
-                <label asp-for="DateAdded" class="control-label"></label>
-                <input asp-for="DateAdded" class="form-control" />
-                <span asp-validation-for="DateAdded" class="text-danger"></span>
-            </div>
-           *@ 
-            <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
-                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                <label>Category</label>
+                <select asp-for="CategoryId" asp-items="ViewBag.CategoryId"></select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+
+            <button type="submit" class="btn-save">
+                Save Changes
+            </button>
+
         </form>
+
+        <a asp-action="Index" class="back-link">
+            ← Back to Products
+        </a>
+
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

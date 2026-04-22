@@ -1,44 +1,204 @@
 ﻿@model proekt.Data.Cart
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Cart";
 }
 
-<h2>Your Cart</h2>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        font-family: Arial, sans-serif;
+    }
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Price</th>
-            <th>Total</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
+    .cart-container {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 0 15px;
+    }
 
-    <tbody>
-        @if (Model != null && Model.CartItems != null)
-        {
-            foreach (var item in Model.CartItems)
-            {
-                <tr>
-                    <td>@item.Product.Name</td>
-                    <td>@item.Quantity</td>
-                    <td>@item.Product.Price</td>
-                    <td>@(item.Quantity* item.Product.Price)</td>
-                    <td>
-                        <a asp-action="Increase" asp-route-id="@item.Id">+</a>
-                        <a asp-action="Decrease" asp-route-id="@item.Id">-</a>
-                        <a asp-action="Remove" asp-route-id="@item.Id">Remove</a>
-                    </td>
-                </tr>
-            }
+    .cart-card {
+        background: rgba(255, 255, 255, 0.92);
+        border-radius: 18px;
+        padding: 25px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #111827;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    thead {
+        background: #111827;
+        color: white;
+    }
+
+    tbody tr:hover {
+        background: #f3f4f6;
+        transition: 0.2s;
+    }
+
+    .product-name {
+        font-weight: 600;
+    }
+
+    .price {
+        color: #111827;
+        font-weight: 500;
+    }
+
+    .total {
+        font-weight: bold;
+        color: #047857;
+    }
+
+    .actions a {
+        margin-right: 8px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .plus {
+        color: #16a34a;
+    }
+
+    .minus {
+        color: #f59e0b;
+    }
+
+    .remove {
+        color: #dc2626;
+    }
+
+    .checkout-area {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+    .btn-checkout {
+        padding: 10px 20px;
+        background: #16a34a;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .btn-checkout:hover {
+            background: #15803d;
         }
-    </tbody>
-</table>
 
-<form asp-controller="Orders" asp-action="Checkout" method="post">
-    @Html.AntiForgeryToken()
-    <button type="submit" class="btn btn-success">Checkout</button>
-</form>
+    
+
+    .actions a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    }
+</style>
+
+<div class="cart-container">
+
+    <div class="cart-card">
+
+        <div class="title">Your Cart</div>
+
+        <div class="table-responsive">
+
+            <table class="table table-bordered align-middle">
+
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @if (Model?.CartItems != null)
+                    {
+                        foreach (var item in Model.CartItems)
+                        {
+                            <tr>
+
+                                <td class="product-name">
+                                    @item.Product?.Name
+                                </td>
+
+                                <td>
+                                    @item.Quantity
+                                </td>
+
+                                <td class="price">
+                                    @item.Product?.Price лв.
+                                </td>
+
+                                <td class="total">
+                                    @(item.Quantity* item.Product.Price) лв.
+                                </td>
+
+                                <td class="actions">
+
+                                    <a asp-action="Increase"
+                                       asp-route-id="@item.Id"
+                                       class="plus">
+                                        +
+                                    </a>
+
+                                    <a asp-action="Decrease"
+                                       asp-route-id="@item.Id"
+                                       class="minus">
+                                        -
+                                    </a>
+
+                                    <a asp-action="Remove"
+                                       asp-route-id="@item.Id"
+                                       class="remove">
+                                        Remove
+                                    </a>
+
+                                </td>
+
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <form asp-controller="Orders" asp-action="Checkout" method="post">
+
+            @Html.AntiForgeryToken()
+
+            <div class="checkout-area">
+                <button type="submit" class="btn-checkout">
+                    Checkout
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

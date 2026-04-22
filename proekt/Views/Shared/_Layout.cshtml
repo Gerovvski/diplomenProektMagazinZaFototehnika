@@ -7,15 +7,53 @@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/proekt.styles.css" asp-append-version="true" />
+
+    <style>
+        body {
+            background: #f5f7fa;
+        }
+
+        .navbar {
+            background: white !important;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+            .nav-link:hover {
+                color: #2563eb !important;
+            }
+
+        .category-dropdown {
+            border-radius: 10px;
+        }
+
+        .category-link {
+            padding: 8px 12px;
+            display: block;
+            color: #111827;
+            text-decoration: none;
+        }
+
+            .category-link:hover {
+                background: #f3f4f6;
+                border-radius: 8px;
+            }
+    </style>
 </head>
 
 <body>
+
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom shadow-sm mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light mb-3">
             <div class="container-fluid">
 
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">proekt</a>
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">
+                    proekt
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target=".navbar-collapse">
@@ -27,60 +65,64 @@
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Products" asp-action="Index">Products</a>
+                            <a class="nav-link" asp-controller="Products" asp-action="Index">Продукти</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Cart" asp-action="Index">Cart</a>
+                            <a class="nav-link" asp-controller="Cart" asp-action="Index">Количка</a>
                         </li>
 
-                        <!-- 🟢 CATEGORY FILTERS -->
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-controller="Products"
-                               asp-action="Index"
-                               asp-route-categoryId="1">
-                                Камери
+                        <!-- CATEGORY DROPDOWN -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               data-bs-toggle="dropdown">
+                                Categories
                             </a>
+
+                            <div class="dropdown-menu category-dropdown p-2">
+
+                                <a class="category-link"
+                                   asp-controller="Products"
+                                   asp-action="Index"
+                                   asp-route-categoryId="1">
+                                    📷 Камери
+                                </a>
+
+                                <a class="category-link"
+                                   asp-controller="Products"
+                                   asp-action="Index"
+                                   asp-route-categoryId="2">
+                                    📊 Стативи
+                                </a>
+
+                                <a class="category-link"
+                                   asp-controller="Products"
+                                   asp-action="Index"
+                                   asp-route-categoryId="3">
+                                    🔍 Обективи
+                                </a>
+
+                                <a class="category-link"
+                                   asp-controller="Products"
+                                   asp-action="Index"
+                                   asp-route-categoryId="4">
+                                    💡 Фото осветление
+                                </a>
+
+                                <a class="category-link"
+                                   asp-controller="Products"
+                                   asp-action="Index"
+                                   asp-route-categoryId="5">
+                                    🎒 Аксесоари
+                                </a>
+
+                            </div>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-controller="Products"
-                               asp-action="Index"
-                               asp-route-categoryId="2">
-                                Стативи
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-controller="Products"
-                               asp-action="Index"
-                               asp-route-categoryId="3">
-                                Обективи
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-controller="Products"
-                               asp-action="Index"
-                               asp-route-categoryId="4">
-                                Фото осветление
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-controller="Products"
-                               asp-action="Index"
-                               asp-route-categoryId="5">
-                                Аксесоари
-                            </a>
-                        </li>
                     </ul>
 
                     <div class="d-flex align-items-center">
@@ -98,15 +140,12 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - proekt
-        </div>
+    <footer class="border-top footer text-muted text-center py-3">
+        &copy; 2026 - proekt
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 
