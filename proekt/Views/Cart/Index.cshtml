@@ -1,7 +1,7 @@
 ﻿@model proekt.Data.Cart
 
 @{
-    ViewData["Title"] = "Cart";
+    ViewData["Title"] = "Количка";
 }
 
 <style>
@@ -101,13 +101,9 @@
             background: #15803d;
         }
 
-    
-
     .actions a {
         display: block;
         margin-bottom: 5px;
-    }
-
     }
 </style>
 
@@ -115,7 +111,7 @@
 
     <div class="cart-card">
 
-        <div class="title">Your Cart</div>
+        <div class="title">Вашата количка</div>
 
         <div class="table-responsive">
 
@@ -123,11 +119,11 @@
 
                 <thead>
                     <tr>
-                        <th>Product</th>
-                        <th>Qty</th>
-                        <th>Price</th>
-                        <th>Total</th>
-                        <th>Actions</th>
+                        <th>Продукт</th>
+                        <th>Количество</th>
+                        <th>Цена</th>
+                        <th>Общо</th>
+                        <th>Действия</th>
                     </tr>
                 </thead>
 
@@ -172,7 +168,7 @@
                                     <a asp-action="Remove"
                                        asp-route-id="@item.Id"
                                        class="remove">
-                                        Remove
+                                        Премахни
                                     </a>
 
                                 </td>
@@ -193,7 +189,7 @@
 
             <div class="checkout-area">
                 <button type="submit" class="btn-checkout">
-                    Checkout
+                    Плащане
                 </button>
             </div>
 

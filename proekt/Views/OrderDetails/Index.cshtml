@@ -1,51 +1,113 @@
 ﻿@model IEnumerable<proekt.Data.OrderDetail>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Order Details";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        background: #f5f7fa;
+    }
 
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+        font-weight: 700;
+    }
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Order)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Product.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Order.Id)
-            </td>
-            <td>
-              
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-               
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    .container-box {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .order-card {
+        background: white;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        transition: 0.3s;
+    }
+
+        .order-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .order-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .info {
+        margin: 5px 0;
+        color: #374151;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 8px;
+        background: #e5e7eb;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+
+    .btn-custom {
+        margin-top: 10px;
+    }
+
+    @@media (max-width: 768px) {
+        .card-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<h1>📦 Order Details</h1>
+
+<div class="container-box">
+
+    <div class="card-grid">
+
+        @foreach (var item in Model)
+        {
+            <div class="order-card">
+
+                <div class="order-title">
+                    🛒 Product ID: @item.Product.Id
+                </div>
+
+                <div class="info">
+                    <span class="badge">Quantity</span>
+                    @item.Quantity
+                </div>
+
+                <div class="info">
+                    <span class="badge">Price</span>
+                    @item.Price лв.
+                </div>
+
+                <div class="info">
+                    <span class="badge">Order ID</span>
+                    @item.Order.Id
+                </div>
+
+                <a asp-action="Details"
+                   asp-route-id="@item.Id"
+                   class="btn btn-primary btn-sm btn-custom">
+                    Details
+                </a>
+
+            </div>
+        }
+
+    </div>
+
+</div>

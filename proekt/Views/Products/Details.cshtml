@@ -1,7 +1,7 @@
 ﻿@model proekt.Data.Product
 
 @{
-    ViewData["Title"] = "Product Details";
+    ViewData["Title"] = "Детайли на продукт";
 }
 
 <style>
@@ -93,57 +93,48 @@
         .back:hover {
             background: #111827;
         }
-
-    
-
-    .btn-area {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    }
 </style>
 
 <div class="details-container">
 
     <div class="details-card">
 
-        <div class="title">Product Details</div>
+        <div class="title">Детайли на продукт</div>
 
         <div class="grid">
 
             <div class="box">
-                <div class="label">Catalog Number</div>
+                <div class="label">Каталожен номер</div>
                 <div class="value">@Model.CatalogNumber</div>
             </div>
 
             <div class="box">
-                <div class="label">Name</div>
+                <div class="label">Име</div>
                 <div class="value">@Model.Name</div>
             </div>
 
             <div class="box full">
-                <div class="label">Description</div>
+                <div class="label">Описание</div>
                 <div class="value">@Model.Description</div>
             </div>
 
             <div class="box">
-                <div class="label">Model</div>
+                <div class="label">Модел</div>
                 <div class="value">@Model.Model</div>
             </div>
 
             <div class="box">
-                <div class="label">Price</div>
+                <div class="label">Цена</div>
                 <div class="value">@Model.Price лв.</div>
             </div>
 
             <div class="box">
-                <div class="label">Date Added</div>
+                <div class="label">Дата на добавяне</div>
                 <div class="value">@Model.DateAdded</div>
             </div>
 
             <div class="box">
-                <div class="label">Category</div>
+                <div class="label">Категория</div>
                 <div class="value">@Model.Categories?.Id</div>
             </div>
 
@@ -154,12 +145,12 @@
             <a asp-action="Edit"
                asp-route-id="@Model?.Id"
                class="btn edit">
-                Edit
+                Редактирай
             </a>
 
             <a asp-action="Index"
                class="btn back">
-                Back
+                Назад
             </a>
 
         </div>

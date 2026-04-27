@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<proekt.Data.Order>
 
 @{
-    ViewData["Title"] = "Orders";
+    ViewData["Title"] = "Поръчки";
 }
 
 <style>
@@ -67,17 +67,13 @@
     .delete {
         color: #dc2626;
     }
-
-   
-
-    }
 </style>
 
 <div class="orders-container">
 
     <div class="orders-card">
 
-        <div class="title">Orders</div>
+        <div class="title">Поръчки</div>
 
         <div class="table-responsive">
 
@@ -85,9 +81,9 @@
 
                 <thead>
                     <tr>
-                        <th>Order Date</th>
-                        <th>Total Price</th>
-                        <th>Actions</th>
+                        <th>Дата на поръчката</th>
+                        <th>Обща цена</th>
+                        <th>Действия</th>
                     </tr>
                 </thead>
 
@@ -108,7 +104,7 @@
                                 <a asp-action="Details"
                                    asp-route-id="@item.Id"
                                    class="details">
-                                    Details
+                                    Детайли
                                 </a>
 
                                 @if (User.IsInRole("Admin"))
@@ -116,7 +112,7 @@
                                     <a asp-action="Delete"
                                        asp-route-id="@item.Id"
                                        class="delete">
-                                        Delete
+                                        Изтриване
                                     </a>
                                 }
 

@@ -1,7 +1,7 @@
 ﻿@model proekt.Data.Order
 
 @{
-    ViewData["Title"] = "Order Details";
+    ViewData["Title"] = "Детайли на поръчката";
 }
 
 <style>
@@ -93,17 +93,17 @@
 
 <div class="order-card">
 
-    <h2 class="order-header">Order Summary</h2>
+    <h2 class="order-header">Обобщение на поръчката</h2>
 
     <div class="order-info">
 
         <div class="info-box">
-            <div class="info-label">Order Date</div>
+            <div class="info-label">Дата на поръчката</div>
             <div class="info-value">@Model.OrderDate</div>
         </div>
 
         <div class="info-box">
-            <div class="info-label">Total Price</div>
+            <div class="info-label">Обща цена</div>
             <div class="info-value">@Model.TotalPrice лв.</div>
         </div>
 
@@ -114,9 +114,9 @@
 
             <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
+                    <th>Продукт</th>
+                    <th>Количество</th>
+                    <th>Цена</th>
                 </tr>
             </thead>
 
@@ -144,12 +144,12 @@
     </div>
 
     <div class="total-box">
-        Total: @Model.TotalPrice лв.
+        Общо: @Model.TotalPrice лв.
     </div>
 
     <div class="btn-area">
         <a asp-action="Index" class="btn btn-secondary">
-            Back
+            Назад
         </a>
     </div>
 

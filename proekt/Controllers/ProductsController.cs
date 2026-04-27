@@ -29,7 +29,7 @@ namespace proekt.Controllers
                 .Include(p => p.Categories)
                 .AsQueryable();
 
-            string categoryName = "Всички продукти";
+            string categoryName = "produkti";
 
             //filtur za rolqta admin koito proverqva dali user e admin i ako e pokazva itemi koito sa spreni
             if (!User.IsInRole("Admin"))

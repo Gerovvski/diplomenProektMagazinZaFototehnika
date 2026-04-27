@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,8 +51,9 @@
         <nav class="navbar navbar-expand-lg navbar-light mb-3">
             <div class="container-fluid">
 
+                <!-- LOGO -->
                 <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">
-                    proekt
+                    Магазин
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -60,74 +61,52 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex">
 
+                    <!-- ЛЯВА СТРАНА -->
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Начало</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Products" asp-action="Index">Продукти</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Cart" asp-action="Index">Количка</a>
-                        </li>
-
-                        <!-- CATEGORY DROPDOWN -->
+                        <!-- КАТЕГОРИИ -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle"
-                               data-bs-toggle="dropdown">
-                                Categories
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                Категории
                             </a>
 
                             <div class="dropdown-menu category-dropdown p-2">
 
-                                <a class="category-link"
-                                   asp-controller="Products"
-                                   asp-action="Index"
-                                   asp-route-categoryId="1">
-                                    📷 Камери
-                                </a>
-
-                                <a class="category-link"
-                                   asp-controller="Products"
-                                   asp-action="Index"
-                                   asp-route-categoryId="2">
-                                    📊 Стативи
-                                </a>
-
-                                <a class="category-link"
-                                   asp-controller="Products"
-                                   asp-action="Index"
-                                   asp-route-categoryId="3">
-                                    🔍 Обективи
-                                </a>
-
-                                <a class="category-link"
-                                   asp-controller="Products"
-                                   asp-action="Index"
-                                   asp-route-categoryId="4">
-                                    💡 Фото осветление
-                                </a>
-
-                                <a class="category-link"
-                                   asp-controller="Products"
-                                   asp-action="Index"
-                                   asp-route-categoryId="5">
-                                    🎒 Аксесоари
-                                </a>
+                                <a class="category-link" asp-controller="Products" asp-action="Index" asp-route-categoryId="1">📷 Камери</a>
+                                <a class="category-link" asp-controller="Products" asp-action="Index" asp-route-categoryId="2">📊 Стативи</a>
+                                <a class="category-link" asp-controller="Products" asp-action="Index" asp-route-categoryId="3">🔍 Обективи</a>
+                                <a class="category-link" asp-controller="Products" asp-action="Index" asp-route-categoryId="4">💡 Осветление</a>
+                                <a class="category-link" asp-controller="Products" asp-action="Index" asp-route-categoryId="5">🎒 Аксесоари</a>
 
                             </div>
                         </li>
 
                     </ul>
 
-                    <div class="d-flex align-items-center">
-                        <partial name="_LoginPartial" />
-                    </div>
+                    <!-- ДЯСНА СТРАНА -->
+                    <ul class="navbar-nav ms-auto d-flex align-items-center gap-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cart" asp-action="Index">
+                                🛒 Количка
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <partial name="_LoginPartial" />
+                        </li>
+
+                    </ul>
 
                 </div>
             </div>
@@ -141,7 +120,7 @@
     </div>
 
     <footer class="border-top footer text-muted text-center py-3">
-        &copy; 2026 - proekt
+        &copy; 2026 - Магазин
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

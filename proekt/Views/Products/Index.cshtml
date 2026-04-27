@@ -9,7 +9,7 @@
         background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
     }
 
-    h1 {
+    h1, h2 {
         text-align: center;
         margin: 20px 0;
         font-weight: 700;
@@ -17,7 +17,7 @@
 
     .product-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 20px;
         max-width: 1200px;
         margin: auto;
@@ -75,26 +75,24 @@
         gap: 5px;
         flex-wrap: wrap;
     }
-
-   
-
-    }
 </style>
 
-<h2 style="text-align:center; margin:20px 0;">
-    Категория: <span style="color:#2563eb;">
+<h2>
+    Категория:
+    <span style="color:#2563eb;">
         @ViewBag.CategoryName
     </span>
 </h2>
+
 @if (User.IsInRole("Admin"))
 {
     <div style="text-align:center; margin-bottom:20px;">
-        <a asp-action="Create"
-           class="btn btn-success btn-lg">
-            + Add Product
+        <a asp-action="Create" class="btn btn-success btn-lg">
+            + Добави продукт
         </a>
     </div>
 }
+
 <div class="product-grid">
 
     @foreach (var item in Model)
@@ -113,16 +111,16 @@
 
                     <hr />
 
-                    <p><b>Description:</b> @item.Description</p>
-                    <p><b>Model:</b> @item.Model</p>
-                    <p><b>Category:</b> @item.Categories?.Name</p>
+                    <p><b>Описание:</b> @item.Description</p>
+                    <p><b>Модел:</b> @item.Model</p>
+                    <p><b>Категория:</b> @item.Categories?.Name</p>
 
                     <div class="btn-group">
 
                         <a asp-action="Details"
                            asp-route-id="@item.Id"
                            class="btn btn-info btn-sm">
-                            Details
+                            Детайли
                         </a>
 
                         @if (!User.IsInRole("Admin"))
@@ -131,7 +129,7 @@
                                asp-action="AddToCart"
                                asp-route-id="@item.Id"
                                class="btn btn-primary btn-sm">
-                                Add
+                                Добави
                             </a>
                         }
 
@@ -140,16 +138,16 @@
                             <a asp-action="Edit"
                                asp-route-id="@item.Id"
                                class="btn btn-warning btn-sm">
-                                Edit
+                                Редактирай
                             </a>
 
                             <form asp-action="Delete"
                                   asp-route-id="@item.Id"
                                   method="post"
-                                  onsubmit="return confirm('Delete this product?');">
+                                  onsubmit="return confirm('Сигурен ли си?');">
 
                                 <button type="submit" class="btn btn-danger btn-sm">
-                                    Delete
+                                    Изтрий
                                 </button>
 
                             </form>
