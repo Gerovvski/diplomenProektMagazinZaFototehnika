@@ -63,7 +63,7 @@
 
                 <div class="navbar-collapse collapse d-sm-inline-flex">
 
-                    <!-- ЛЯВА СТРАНА -->
+                   
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
@@ -74,7 +74,7 @@
                             <a class="nav-link" asp-controller="Products" asp-action="Index">Продукти</a>
                         </li>
 
-                        <!-- КАТЕГОРИИ -->
+                      
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                                 Категории
@@ -90,7 +90,12 @@
 
                             </div>
                         </li>
-
+                        @if(User.IsInRole("Admin")){
+                             <li class="nav-item">
+                            <a class="nav-link" asp-controller="Categories" asp-action="Index">Управление на категории</a>
+                        </li>
+                        }
+                       
                     </ul>
 
                     <!-- ДЯСНА СТРАНА -->

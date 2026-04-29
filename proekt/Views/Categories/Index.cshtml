@@ -1,49 +1,177 @@
 ﻿@model IEnumerable<proekt.Data.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Категории";
 }
+
 @if (User.IsInRole("Admin"))
 {
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            font-family: Arial, sans-serif;
+        }
 
-    <h1>Index</h1>
+        .container-box {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 15px;
+        }
 
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Name)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Description)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
+        .card-box {
+            background: rgba(255,255,255,0.95);
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+        }
 
-        <tbody>
+        .title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #111827;
+        }
 
-            @foreach (var item in Model)
-            {
+        .btn-create {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #2563eb;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
 
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-                </tr>
+            .btn-create:hover {
+                background: #1d4ed8;
             }
-        </tbody>
-    </table>
-}
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        thead {
+            background: #111827;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        tbody tr {
+            background: white;
+            transition: 0.2s;
+        }
+
+            tbody tr:hover {
+                background: #f3f4f6;
+            }
+
+        .actions a {
+            margin-right: 10px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .edit {
+            color: #2563eb;
+        }
+
+        .details {
+            color: #059669;
+        }
+
+        .delete {
+            color: #dc2626;
+        }
+
+       
+
+            thead {
+                display: none;
+            }
+
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #e5e7eb;
+            }
+
+            .actions {
+                margin-top: 10px;
+            }
+        
+    </style>
+
+    <div class="container-box">
+
+        <div class="card-box">
+
+            <div class="title">📂 Категории</div>
+
+            <a asp-action="Create" class="btn-create">
+                + Нова категория
+            </a>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Име</th>
+                        <th>Описание</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>@item.Name</td>
+
+                            <td>@item.Description</td>
+
+                            <td class="actions">
+
+                                <a asp-action="Edit"
+                                   asp-route-id="@item.Id"
+                                   class="edit">
+                                    Edit
+                                </a>
+
+                                <a asp-action="Details"
+                                   asp-route-id="@item.Id"
+                                   class="details">
+                                    Details
+                                </a>
+
+                                <a asp-action="Delete"
+                                   asp-route-id="@item.Id"
+                                   class="delete">
+                                    Delete
+                                </a>
+
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+}

@@ -1,38 +1,152 @@
 ﻿@model proekt.Data.Category
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Редакция на категория";
 }
+
 @if (User.IsInRole("Admin"))
 {
-    <h1>Edit</h1>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            font-family: Arial, sans-serif;
+        }
 
-    <h4>Category</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-4">
+        .edit-container {
+            max-width: 650px;
+            margin: 70px auto;
+            padding: 0 15px;
+        }
+
+        .card-box {
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+            border-top: 5px solid #2563eb;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 26px;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            display: block;
+            color: #374151;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #d1d5db;
+            outline: none;
+            transition: 0.2s;
+        }
+
+            input:focus {
+                border-color: #2563eb;
+                box-shadow: 0 0 6px rgba(37,99,235,0.3);
+            }
+
+        .btn-save {
+            width: 100%;
+            padding: 12px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+            .btn-save:hover {
+                background: #1d4ed8;
+            }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #374151;
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                color: #111827;
+            }
+
+        .text-danger {
+            font-size: 13px;
+        }
+
+            .card-box {
+                padding: 20px;
+            }
+
+            .title {
+                font-size: 22px;
+            }
+        
+    </style>
+
+    <div class="edit-container">
+
+        <div class="card-box">
+
+            <div class="title">✏ Редакция</div>
+            <div class="subtitle">Промени информацията за категорията</div>
+
             <form asp-action="Edit">
+
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
                 <input type="hidden" asp-for="Id" />
+
                 <div class="form-group">
-                    <label asp-for="Name" class="control-label"></label>
-                    <input asp-for="Name" class="form-control" />
+                    <label>Име</label>
+                    <input asp-for="Name" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
+
                 <div class="form-group">
-                    <label asp-for="Description" class="control-label"></label>
-                    <input asp-for="Description" class="form-control" />
+                    <label>Описание</label>
+                    <input asp-for="Description" />
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
-                <div class="form-group">
-                    <input type="submit" value="Save" class="btn btn-primary" />
-                </div>
-            </form>
-        </div>
-    </div>
 
-    <div>
-        <a asp-action="Index">Back to List</a>
+                <button type="submit" class="btn-save">
+                    Запази
+                </button>
+
+            </form>
+
+            <a asp-action="Index" class="back-link">
+                ← Назад
+            </a>
+
+        </div>
+
     </div>
 
     @section Scripts {
@@ -40,5 +154,4 @@
             await Html.RenderPartialAsync("_ValidationScriptsPartial");
         }
     }
-
 }

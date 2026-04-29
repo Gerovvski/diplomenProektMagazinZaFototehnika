@@ -1,57 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\",
+  "WorkspaceRootPath": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\orderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\orderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\orderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\orderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\orderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\orderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\stem-1-12\\desktop\\hristiqn12a\\diplomenproektmagazinzafototehnika\\proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|c:\\users\\1212-13\\desktop\\hristiqn12a\\proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF469909-0DB7-4E44-8CF7-E31A16C79F9F}|proekt\\proekt.csproj|solutionrelative:proekt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -65,41 +93,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationBuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeDocumentMoniker": "proekt\\Services\\ApplicationBuilderExtension.cs",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "proekt\\Services\\ApplicationBuilderExtension.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwDsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:09:59.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T09:06:44.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "proekt\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T08:47:43.766Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "proekt\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:38:28.282Z",
+              "WhenOpened": "2026-04-29T08:46:51.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "proekt\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv5YAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:38:18.373Z",
+              "WhenOpened": "2026-04-29T08:43:58.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T08:43:16.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T08:42:29.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T08:41:10.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T08:35:39.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Products\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "proekt\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "proekt\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -108,140 +235,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Products\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "proekt\\Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "proekt\\Views\\Products\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:37:48.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\OrderDetails\\Delete.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\OrderDetails\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\OrderDetails\\Delete.cshtml",
-              "RelativeToolTip": "proekt\\Views\\OrderDetails\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:37:42.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\OrderDetails\\Create.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\OrderDetails\\Create.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\OrderDetails\\Create.cshtml",
-              "RelativeToolTip": "proekt\\Views\\OrderDetails\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:37:40.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:37:29.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T08:37:11.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "proekt\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "proekt\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T08:18:42.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "proekt\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "proekt\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAADwv5EAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T08:15:35.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Orders\\Details.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Orders\\Details.cshtml",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAAJsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T08:20:55.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T08:37:48.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "proekt\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "proekt\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAowMcAAAAGAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\OrderDetails\\Delete.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\OrderDetails\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\OrderDetails\\Delete.cshtml",
+              "RelativeToolTip": "proekt\\Views\\OrderDetails\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T08:43:00.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T08:37:42.581Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "proekt\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\STEM-1-12\\Desktop\\hristiqn12a\\diplomenProektMagazinZaFototehnika\\proekt\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "proekt\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T09:04:30.224Z",
-              "EditorCaption": ""
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\OrderDetails\\Create.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\OrderDetails\\Create.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\OrderDetails\\Create.cshtml",
+              "RelativeToolTip": "proekt\\Views\\OrderDetails\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T08:37:40.961Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "dbo.Categories [Data]",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T08:37:29.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T08:37:11.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "proekt\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "proekt\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:18:42.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "proekt\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "proekt\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAADwv5EAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:15:35.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAJsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T08:20:55.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "proekt\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "proekt\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAowMcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T08:43:00.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "proekt\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\1212-13\\Desktop\\hristiqn12a\\proekt\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "proekt\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:04:30.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.Categories.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MagazinZaFototehnika/True/SqlTable/dbo.Categories.sql",
-              "ToolTip": "dbo.Categories [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MagazinZaFototehnika/True/SqlTable/dbo.Categories.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-04-15T08:58:14.289Z"
             }
