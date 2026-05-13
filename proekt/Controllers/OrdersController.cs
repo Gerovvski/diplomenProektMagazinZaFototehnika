@@ -37,7 +37,7 @@ namespace proekt.Controllers
             {
                 ClientId = userId,
                 OrderDate = DateTime.Now,
-                TotalPrice = cart.CartItems.Sum(ci => (int)(ci.Product.Price * ci.Quantity)),
+                TotalPrice = cart.CartItems.Sum(ci => (decimal)(ci.Product.Price * ci.Quantity)),
                 Details = cart.CartItems.Select(ci => new OrderDetail
                 {
                     ProductId = ci.ProductId,

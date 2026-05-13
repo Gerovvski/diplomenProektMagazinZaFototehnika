@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\proekt.bundle.scp.css",
+      "PackagePath": "staticwebassets\\proekt.z56mu4iq3q.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\.vs\\ProjectSettings.json",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\.vs\\ProjectSettings.json"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\.vs\\VSWorkspaceState.json",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\.vs\\VSWorkspaceState.json"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\.vs\\photography-equipment-store-website\\v17\\DocumentLayout.json",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\.vs\\photography-equipment-store-website\\v17\\DocumentLayout.json"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\accessories.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\accessories.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\.vs\\ProjectSettings.json",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\.vs\\ProjectSettings.json"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\.vs\\VSWorkspaceState.json",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\.vs\\VSWorkspaceState.json"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\.vs\\images\\v17\\DocumentLayout.json",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\.vs\\images\\v17\\DocumentLayout.json"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\accessories.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\accessories.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\bg-grid.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\bg-grid.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\camera.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\lens.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\lens.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\lighting.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\lighting.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\services.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\services.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\assets\\images\\tripod.svg",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\assets\\images\\tripod.svg"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\cameras.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\cameras.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\contact.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\featured.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\featured.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\index.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\lenses.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\lenses.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\lighting.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\lighting.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\services.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\services.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\styles.css",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\StaticHTML\\kursovProektIP-main\\tripods.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\kursovProektIP-main\\tripods.html"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kryss\\Desktop\\hbg\\diplomenProektMagazinZaFototehnika\\proekt\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.proekt.props",
+      "PackagePath": "build\\proekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.proekt.props",
+      "PackagePath": "buildMultiTargeting\\proekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.proekt.props",
+      "PackagePath": "buildTransitive\\proekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.proekt.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.proekt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

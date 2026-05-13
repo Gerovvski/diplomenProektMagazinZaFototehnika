@@ -17,7 +17,8 @@
 
     .product-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(3, 250px);
+        justify-content: center;
         gap: 20px;
         max-width: 1200px;
         margin: auto;
@@ -40,7 +41,9 @@
     .product-img {
         width: 100%;
         height: 200px;
-        object-fit: cover;
+        object-fit: contain;
+        background: #f8fafc;
+        padding: 10px;
     }
 
     .product-body {

@@ -63,7 +63,6 @@
 
                 <div class="navbar-collapse collapse d-sm-inline-flex">
 
-                   
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
@@ -74,7 +73,6 @@
                             <a class="nav-link" asp-controller="Products" asp-action="Index">Продукти</a>
                         </li>
 
-                      
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                                 Категории
@@ -90,16 +88,27 @@
 
                             </div>
                         </li>
-                        @if(User.IsInRole("Admin")){
-                             <li class="nav-item">
-                            <a class="nav-link" asp-controller="Categories" asp-action="Index">Управление на категории</a>
-                        </li>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Categories" asp-action="Index">
+                                    Управление на категории
+                                </a>
+                            </li>
                         }
-                       
+
                     </ul>
 
-                    <!-- ДЯСНА СТРАНА -->
+                    <!-- otdqsno -->
                     <ul class="navbar-nav ms-auto d-flex align-items-center gap-3">
+
+                        <!-- kontakti -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">
+                                📞 Контакти
+                            </a>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Cart" asp-action="Index">
@@ -127,6 +136,25 @@
     <footer class="border-top footer text-muted text-center py-3">
         &copy; 2026 - Магазин
     </footer>
+
+    <div class="modal fade" id="contactModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">📞 Контакти</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p><strong>Телефон:</strong> +359 888 123 456</p>
+                    <p><strong>Email:</strong> shop@email.com</p>
+                    <p><strong>Адрес:</strong> България</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
